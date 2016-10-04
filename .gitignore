@@ -2,11 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.aux
-.log
-.bbl
-.swp
-.blg
+*.aux
+*.log
+*.bbl
+*.swp
+*.blg
 
 
 # C extensions
