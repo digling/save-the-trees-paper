@@ -15,7 +15,7 @@
 \usepackage[all]{hypcap}
 \usepackage{memhfixc}
 \usepackage{tikz}
-\usetikzlibrary{trees}
+\usetikzlibrary{trees,arrows,arrows.meta}
 \usepackage{gb4e}  
 \setmainlanguage{english}
 \fontfamily{ptm}\selectfont
@@ -167,17 +167,17 @@ While phonology could seem at first glance to support grouping Akkadian and Hebr
 
 The tree here provide us with near-certainty that the innovative features shared by Hebrew and Akkadian are either parallel innovations or isoglosses transmitted through contact, and cannot be common innovations of these two languages.
 
-   \begin{figure}[h]
-   \caption{A simplified Stammbaum of Semitic languages} \label{fig:semitic}   \centering
+\begin{figure}[h]
+\caption{A simplified Stammbaum of Semitic languages} \label{fig:semitic}   \centering
   \begin{tikzpicture}
-  \node (A) at (0,0) {Proto-Semitic};
+   \node (A) at (0,0) {Proto-Semitic};
    \node (B) at (-3,-2) {Akkadian};
    \node (C) at (3,-2) {West Semitic};
    \node (D) at (0,-4) {North-West Semitic};
    \node (E) at (-2,-6) {Hebrew};
    \node (F) at (2,-6) {Aramaic};   
    \node (G) at (8,-6) {Arabic};   
-\tikzstyle{sur}=[--,very thick,>=latex]
+\tikzstyle{sur}=[-,very thick,>=latex]
 \draw[sur] (A)--(B);
 \draw[sur] (A)--(C);
 \draw[sur] (C)--(D);
