@@ -27,7 +27,8 @@
 \newfontfamily\phon[Mapping=tex-text,Ligatures=Common,Scale=MatchLowercase]{Charis SIL} 
 \newcommand{\ipa}[1]{\textbf{{\phon\mbox{#1}}}} 
 \newcommand{\grise}[1]{\cellcolor{lightgray}\textbf{#1}}
-\newfontfamily\cn{HAN NOM A}%pour le chinois
+%\newfontfamily\cn{HAN NOM A}%pour le chinois
+\newfontfamily\cn{SimSun}
 \newcommand{\zh}[1]{{\cn#1}}
 
 \title{Save the Trees: Why we need tree models in linguistic reconstruction (and when we should
@@ -613,7 +614,10 @@ variation comes from well-understood morphological alternations that have been g
 different ways in different language varieties, though the same account  would be valid of the
 sporadic changes.
  
-To illustrate how alternation and variation in the proto-language can blur the phylogeny, we take the example of the reflexes of proto-Germanic *\ipa{knabō, knappaz} `boy' (Figure \ref{fig:knabe}),\footnote{The reflexes of this proto-form have developped distinct meanings in the attested languages, including `squire', but this aspect is not considered here.} an n-stem noun whose reflexes in the modern and ancient languages are particularly complex (data from \citealt[71,128]{kroonen11nstems}, \citealt[294]{kroonen13dict}).
+To illustrate how alternations and variation in the proto-language can blur the phylogeny, we take two examples from Germanic: the proto-Germanic noun *\ipa{knabō, knappaz} `boy' and the dative second plural pronoun \ipa{*izwiz} or \ipa{*iwiz}.
+
+\subsubsection{Alternations}
+The reflexes of proto-Germanic *\ipa{knabō, knappaz} `boy' (Figure \ref{fig:knabe}),\footnote{The reflexes of this proto-form have developped distinct meanings in the attested languages, including `squire', but this aspect is not considered here.} an n-stem noun whose reflexes in the modern and ancient languages are particularly complex (data from \citealt[71,128]{kroonen11nstems}, \citealt[294]{kroonen13dict}).
 From the attested ancient and modern forms (if the known sound laws are applied backwards), no fewer than four protoforms have to be postulated:  \ipa{*knaban-}, \ipa{*knapan-}, \ipa{*knabban-} and \ipa{*knappan-}. Some languages have more than one reflex of this etymon (with diverging specialized meanings), and their distribution does not fit any accepted classification of the Germanic languages: for instance, while nearly all Germanicists agree on the existence of an Anglo-Frisian `Ingvaeonic' branch, we see that English sides with either German (in having a reflex of \ipa{*knaban-}) or with Dutch (the Old English reflex of \ipa{*knapan-}, lost in modern English) rather than Frisian.
 
    \begin{figure}[h]
@@ -658,6 +662,19 @@ Unlike most other language families, the detailed knowledge that has accumulated
 The paradigm of the noun `boy' (and all nouns of the same type) in proto-Germanic  (stage 1) had an alternation between *\ipa{-b-} and *\ipa{-pp-}. This complex  alternation was variously levelled as *\ipa{-b-}/\ipa{-bb-} or *\ipa{-p-}/\ipa{-pp-} by stage 2; note that within a single language, not all items belonging to this declension class underwent levelling in the same way, and that some languages even have competing innovative (OE \ipa{cnapa}  from \ipa{*knapan-}) and archaic (OE \ipa{cnafa}  from \ipa{*knaban-}) forms for the same etymon (in this particular case, note that only the archaic form has been preserved, with a different meaning, in modern English \ipa{knave}).
 After simplification of the *\ipa{-b-}/*\ipa{-pp-} alternation, all languages underwent a second wave of analogy, generalizing either the stem of the nominative (archaic \ipa{*knaban-} or innovative \ipa{*knapan-}) or that of the genitive (archaic \ipa{*knappan-} or innovative \ipa{*knabban-}), resulting in the four variants attested throughout Germanic languages.
 
+\subsubsection{Proto-variation}
+Not all types of variations in the proto-language however can be accounted for by analogical levellings of paradigms in a straightforward way, and in some cases alternative forms may have to be reconstructed back to the proto-language.
+
+Germanic second person pronouns provide an example of a case of this type. The accusative and dative of the second person plural pronoun go back to two proto-forms: \ipa{*izwiz} (for Gothic \ipa{izwiz} and Old Norse \ipa{yðr} by dissimilation through \ipa{*irwir}, see \citealt[251]{bugge1855pronomina}) and \ipa{*iwiz} (Old English \ipa{ēow}, Old High German \ipa{iu}).
+
+Some scholars argue that \ipa{*iwiz} is original, and that \ipa{*izwiz} is an innovative form resulting for analogical levelling with the first plural accusative/dative \ipa{*unsiz} (through a stage \ipa{*iwsiz} followed by metathesis, see \citealt[275]{kroonen13dict}). Since Gothic is uncontrovertibly the first branch of Germanic, this shared isogloss with Old Norse is clearly a problem if this form is a single-event innovation.
+
+However, there is no clear consensus on the origin of these forms. \citet[804]{brugmann1890grundriss2.2.1} (see also \citealt[265]{streitberg1900urgermanische}) argues instead that \ipa{*izwiz} and \ipa{*iwiz} are both ancient; as proto-Indo-European had both \ipa{*wes} (Sanskrit 2pl accusative-genitive-dative \ipa{vas}) and \ipa{*swes} (Welsh \ipa{chwi}). A particle \ipa{*e} (Greek \ipa{e-kêi} `there', Sanskrit \ipa{a-sau} `this') was added to both of these alternative forms, resulting in \ipa{*ewes} $\rightarrow$ \ipa{*iwiz} and \ipa{*eswes} $\rightarrow$ \ipa{*izwiz} respectively.\footnote{Proto-Indo-European \ipa{*e} shifts to Germanic \ipa{*i} in unaccented syllables.} %ἐκεῖ
+
+Brugmann's idea implies that two proto-forms co-existed in proto-Germanic for the accusative/dative of the 2pl. This is by no means a crosslinguistically uncommon state of affairs,\footnote{For instance, Japhug has several competing forms for the first and secon person pronouns, as well as form the dative postposition (\citealt[624]{jacques17sketch} within a single varieties (without counting dialectal variations).} and this type of situation may account for irregularities in pronominal systems in other parts of the world (cf \citealt{francois16pronouns}).
+
+
+\subsubsection{Concluding remarks}
 We do not deny the potential value of item-specific changes of this type as evidence for studying phylogeny. However, it is obvious that isoglosses based on item-specific analogical levelling and sporadic sound change \emph{will overlap} with each other, since competing forms can be maintained within the same language variety and only later be incompletely sorted across different lineages.
 
 
